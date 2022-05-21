@@ -1,0 +1,83 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.hero-section{
+    height: 100vh;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    padding: 1rem; 
+}
+
+.content{
+    width: 100%;
+}
+
+.form-area{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-area{
+    margin: 0 auto;
+}
+
+li{
+    list-style-type: none;
+    padding: 2rem;
+    text-align: center;
+}
+
+input{
+    background: transparent;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+button{
+    height: 2.7rem;
+    width: 10rem;
+    border-radius: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-weight: 600;
+}
+
+button:hover{
+    box-shadow: 2px 4px 10px black;
+    scale: 1.05;
+}
+
+#add:hover{
+    background: #0000b6;
+}
+
+li > button:hover{
+    background: #bd0000;
+}
+
+#add{
+    background: blue;
+    color:white;
+}
+
+li button{
+    background: red;
+    color:white;
+    margin :1rem;
+    text-align: center;
+}
